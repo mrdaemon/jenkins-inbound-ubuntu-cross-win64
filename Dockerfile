@@ -18,6 +18,7 @@ RUN dpkg --add-architecture i386 && \
     nasm \
     ninja-build \
     pkgconf \
+    wget \
     wine64 \
     wine && \
     rm -rf /var/cache/* /tmp/* /var/lib/apt/lists/*
