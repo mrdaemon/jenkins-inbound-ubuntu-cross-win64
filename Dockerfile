@@ -13,6 +13,7 @@ RUN dpkg --add-architecture i386 && \
     apt-get install -y --no-install-recommends \
     build-essential \
     ccache\ 
+    cmake \
     g++-mingw-w64 \
     gcc-multilib \
     meson \
