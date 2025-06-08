@@ -22,7 +22,7 @@ RUN dpkg --add-architecture i386 && \
     pkgconf \
     wget \
     wine64 \
-    wine && \
+    wine \
     unzip \
     zip \
     && rm -rf /var/cache/* /tmp/* /var/lib/apt/lists/*
