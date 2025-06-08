@@ -23,6 +23,8 @@ RUN dpkg --add-architecture i386 && \
     wget \
     wine64 \
     wine && \
-    rm -rf /var/cache/* /tmp/* /var/lib/apt/lists/*
+    unzip \
+    zip \
+    && rm -rf /var/cache/* /tmp/* /var/lib/apt/lists/*
 
 USER jenkins
