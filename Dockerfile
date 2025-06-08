@@ -11,6 +11,7 @@ ENV CCACHE_MAXSIZE=500M
 RUN dpkg --add-architecture i386 && \
     apt-get update && \
     apt-get install -y --no-install-recommends \
+    build-essential \
     ccache\ 
     g++-mingw-w64 \
     gcc-multilib \
